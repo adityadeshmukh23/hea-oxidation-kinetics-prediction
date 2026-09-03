@@ -1,0 +1,31 @@
+# --- Trained model checkpoints (regenerate via src/, see models/README.md) ---
+models/*.pkl
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Local tool config / build artifacts (not part of the project) ---
+.claude/
+.libomp/
